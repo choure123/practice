@@ -164,3 +164,23 @@ class subtraction {
         scanner.close();
     }
 }
+class Largestofthreenumber{
+    public static void main(String[] args) {
+        int x,y,z;
+        System.out.println("enter three intergers");
+        Scanner in =new Scanner (System.in);
+        x = in.nextInt();
+        y = in.nextInt();
+        z = in.nextInt();
+        if (x >y && x >z);
+        System.out.println( "first number is enterger.");
+         if ( y>x && y>z);
+        System.out.println( "Second number is enterger.");
+         if (z>x && z> y);
+        System.out.println( "third number is enterger");
+
+        System.out.println("enter the number of not distinct");
+
+
+    }
+}
