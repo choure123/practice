@@ -68,3 +68,18 @@ class Swapnumbers {
     }
 }
 
+class Swapnumbers1 {
+    public static void main(String[] args) {
+        int x, y;
+        System.out.println("enter x and y");
+        Scanner in = new Scanner(System.in);
+        x = in.nextInt();
+        y = in.nextInt();
+        System.out.println(" before Swappping \nx = +x+\ny = " + y);
+
+        x = y;
+
+        System.out.println(" before Swappping \nx = +x+\ny = " + y);
+
+    }
+}
