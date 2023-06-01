@@ -192,7 +192,7 @@ class Condition{
             System.out.println("java program");
         }
         else {
-            System.out.println( "what are  you donig here ");
+            System.out.println( "what are donig ");
 
         }
 
